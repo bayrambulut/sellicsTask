@@ -30,7 +30,7 @@ public class ProductServiceImpl implements ProductService {
         double score = 0;
 
         //Make as many as request within 10 seconds
-        while((new Date().getTime() - startDate.getTime() < 90000) && index < keyword.length()) {
+        while((new Date().getTime() - startDate.getTime() < 9000) && index < keyword.length()) {
 
             index ++;
             String subText = keyword.substring(0, index);
